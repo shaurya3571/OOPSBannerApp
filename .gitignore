@@ -1,0 +1,10 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE files (VS Code / IntelliJ)
+.vscode/
+.idea/
+*.class
+*.out
