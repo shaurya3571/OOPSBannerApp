@@ -1,21 +1,21 @@
 public class OOPSBannerApp {
-
+    // Main method to run the banner display
     public static void main(String[] args) {
+        // Define String Array variable to hold the OOPS banner lines
+        // Each line represents a row in the banner for the letters O, O, P, S
+        String[] lines = {
+            String.join("", "      ***      ***      *****       ***** "),
+            String.join("", "     ** **    ** **    **   **    **      "),
+            String.join("", "    **   **  **   **   **   **   **       "),
+            String.join("", "    **   **  **   **   *****      ***     "),
+            String.join("", "    **   **  **   **   **            **   "),
+            String.join("", "     ** **    ** **    **             **  "),
+            String.join("", "      ***      ***     **        *****    ")
+        };
 
-    
-        String[] banner = new String[7];
-
-    
-        banner[0] = String.join("", "      ***      ***      *****       ***** ");
-        banner[1] = String.join("", "     ** **    ** **    **   **    **      ");
-        banner[2] = String.join("", "    **   **  **   **   **   **   **       ");
-        banner[3] = String.join("", "    **   **  **   **   *****      ***     ");
-        banner[4] = String.join("", "    **   **  **   **   **            **   ");
-        banner[5] = String.join("", "     ** **    ** **    **             **  ");
-        banner[6] = String.join("", "      ***      ***     **        *****    ");
-
-        
-        for (String line : banner) {
+        // Use a loop to print each line of the banner to create the
+        // visual effect for the message "OOPS"
+        for (String line : lines) {
             System.out.println(line);
         }
     }
